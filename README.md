@@ -15,17 +15,12 @@
 | Multicall3 | Token List |
 
 ### Multicall3 Mainnet Addresses
-| Chain    | Address |
-| -------- | ------- |
-| Ethereum | [0xeefba1e63905ef1d7acba5a8513c70307c1ce441](https://etherscan.io/address/0xeefba1e63905ef1d7acba5a8513c70307c1ce441#contracts) |
-| Polygon | [0x11ce4B23bD875D7F5C6a31084f55fDe1e9A87507](https://explorer-mainnet.maticvigil.com/address/0x11ce4B23bD875D7F5C6a31084f55fDe1e9A87507/contracts) |
-
-### multicall3 Testnet Addresses
-| Chain    | Address |
-| -------- | ------- |
-| Goerli | [0xeefba1e63905ef1d7acba5a8513c70307c1ce441](https://etherscan.io/address/0xeefba1e63905ef1d7acba5a8513c70307c1ce441#contracts) |
-| Mumbai | [0x11ce4B23bD875D7F5C6a31084f55fDe1e9A87507](https://explorer-mainnet.maticvigil.com/address/0x11ce4B23bD875D7F5C6a31084f55fDe1e9A87507/contracts) |
-
+| Chain     | Address |
+| --------- | ------- |
+| Ethereum  | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB](https://etherscan.io/address/0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB) |
+| BSC       | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB](https://bscscan.com/address/0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB) |
+| Polygon   | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB](https://polygonscan.com/address/0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB) |
+| Avalanche | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB](https://snowtrace.io/address/0x4e6eed99e4cacab3e266305e2ad02c1783265afb) |
 
 ## Development Guide
 
