@@ -50,6 +50,13 @@ yarn install
 
 ### Hardhat
 
+#### Environment Variables
+
+- In order to run any hardhat commands you must setup your envs first.
+
+1. Copy the ``.env.example`` file and rename it to ``.env``
+2. Paste your envs
+
 #### Compile contracts
 
 ```sh
