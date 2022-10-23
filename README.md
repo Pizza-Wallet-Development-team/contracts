@@ -3,11 +3,14 @@
 ## Table of contents
 - [Smart Contracts](#smart-contracts)
     - [Multicall3 Mainnet Addresses](#multicall3-mainnet-addresses)
-    - [Multicall3 Testnet Addresses](#multicall3-testnet-addresses)
 - [Development Guide](#development-guide)
     - [Requirements](#requirements)
     - [Install all dependencies](#install-all-dependencies)
     - [Hardhat](#hardhat)
+        - [Environment Variables](#environment-variables)
+        - [Compile Contracts](#compile-contracts)
+        - [Deploy Contracts](#deploy-contracts)
+        - [Verify Contracts](#verify-contracts)
 
 ## Smart Contracts
 | Contract   | Feature    |
