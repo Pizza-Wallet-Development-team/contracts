@@ -55,8 +55,20 @@ yarn install
 
 ### Hardhat
 
-#### Compile a contract
+#### Compile contracts
 
 ```sh
 npx hardhat compile
+```
+
+#### Deploy contracts
+
+```sh
+npx hardhat run scripts/deploy.js --network [NETWORK]
+```
+
+#### Verify contracts
+
+```sh
+npx hardhat verify --network [NETWORK] [CONTRACT_ADDRESS]
 ```
