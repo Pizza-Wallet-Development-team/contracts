@@ -1,46 +1,57 @@
 # Pizza Wallet Smart Contracts
 
 ## Table of contents
+
 - [Smart Contracts](#smart-contracts)
-    - [Multicall3 Mainnet Addresses](#multicall3-mainnet-addresses)
+  - [Multicall3 Mainnet Addresses](#multicall3-mainnet-addresses)
 - [Development Guide](#development-guide)
-    - [Requirements](#requirements)
-    - [Install all dependencies](#install-all-dependencies)
-    - [Hardhat](#hardhat)
-        - [Environment Variables](#environment-variables)
-        - [Compile Contracts](#compile-contracts)
-        - [Deploy Contracts](#deploy-contracts)
-        - [Verify Contracts](#verify-contracts)
+  - [Requirements](#requirements)
+  - [Install all dependencies](#install-all-dependencies)
+  - [Hardhat](#hardhat)
+    - [Environment Variables](#environment-variables)
+    - [Compile Contracts](#compile-contracts)
+    - [Deploy Contracts](#deploy-contracts)
+    - [Verify Contracts](#verify-contracts)
 
 ## Smart Contracts
+
 | Contract   | Feature    |
 | ---------- | ---------- |
 | Multicall3 | Token List |
 
 ### Multicall3 Mainnet Addresses
-| Chain     | Address |
-| --------- | ------- |
-| Ethereum  | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB](https://etherscan.io/address/0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB) |
-| BSC       | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB](https://bscscan.com/address/0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB) |
-| Polygon   | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB](https://polygonscan.com/address/0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB) |
-| Avalanche | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB](https://snowtrace.io/address/0x4e6eed99e4cacab3e266305e2ad02c1783265afb) |
+
+| Chain     | Address                                                                                                                       |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Ethereum  | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB](https://etherscan.io/address/0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB)            |
+| Fantom    | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB]()                                                                                   |
+| Polygon   | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB](https://polygonscan.com/address/0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB)         |
+| Avalanche | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB](https://snowtrace.io/address/0x4e6eed99e4cacab3e266305e2ad02c1783265afb)            |
+| Arbitrum  | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB](https://arbiscan.io/address/0x4e6eed99e4cacab3e266305e2ad02c1783265afb)             |
+| Optimism  | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB](https://optimistic.etherscan.io/address/0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB) |
+| BSC       | [0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB](https://bscscan.com/address/0x4e6EEd99e4cacab3e266305E2Ad02C1783265AfB)             |
 
 ## Development Guide
 
 ### Requirements
 
-It is recommended to be running a Debian or Ubuntu based Linux distribution. <br>
-In order to install the requirements for another OS, please refer to the official guides.  
+It is recommended to be running a Debian or Ubuntu based Linux distribution. `<br>`
+In order to install the requirements for another OS, please refer to the official guides.
 
 1. NVM
+
 ```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash && source ~/.nvm/nvm.sh
 ```
+
 2. Node
+
 ```sh
 nvm use --lts
 ```
+
 3. Yarn
+
 ```sh
 npm install --global yarn
 ```
