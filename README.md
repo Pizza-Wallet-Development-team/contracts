@@ -1,5 +1,7 @@
 # Pizza Wallet Smart Contracts
 
+Pizza wallet loyalty program and wallet contracts. 
+
 ## Table of contents
 
 - [Smart Contracts](#smart-contracts)
